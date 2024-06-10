@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTITUTE OF ENGINEERING & TECH</title>
+    <link rel="icon" type="image/png" href="collegelogof.png">
+
+    <link rel="stylesheet" href="college.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="sticky">
+    <nav>
+        <a href="index.html">
+            <img src="collegelogof.png" alt="logo" class="logo">
+          <p><b class="college-name">INSTITUTE OF ENGINEERING & TECHNOLOGY</b></p> 
+ </a>            
+    
+ 
+        <div class="nav-links" id="navLinks">
+           
+        
+            <ul>
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+             
+        </div>
+        <i class='bx bx-menu' onclick="showMenu()"></i>
+    </nav>
+</div>
+
+ <!-- contact us-->
+
+ <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class='bx bxs-school'></i>
+                <span>
+                    <h5> Mohanlal Sukhadia University</h5>
+                       <p> Near Rana Punja Bhil Janjatiy Hostel, Udaipur, 313001, Rajasthan, India</p>
+                </span>
+            </div>
+            <div>
+                <i class='bx bxs-phone-call' ></i>
+                <span>
+                    <h5> 0294-2471505, 0294-2471506</h5>
+                       <p>Monday to Saturday , 10AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+                <i class='bx bxs-envelope'></i>
+                <span>
+                    <h5>E-mail: registrar@mlsu.ac.in</h5>
+                       <p> For any Queries ask us</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="9c6edc12-3ac2-4007-984d-60dfa53a3b3e">
+                <input type="text" name="name" placeholder="Enter Your Name">
+                <input type="text" name="phone" placeholder="Enter Your Phone Number">
+                <input type="text" name="email" placeholder="Enter Your Email Address">
+                <textarea rows="10" name="msg" placeholder="Message"></textarea>
+                <button type="submit" class="hero-btn red-btn" >
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+ </section>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.5924150243527!2d73.73046527440455!3d24.60325875550296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e5cd94ffaedf%3A0x9dad80523e688c8c!2sInstitute%20of%20Engineering%20and%20Technology%2C%20MLSU!5e0!3m2!1sen!2sin!4v1706352091678!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+   
+
+
+
+
+
+ <!--social mediar-->
+ <section class="footer">
+    <h4>Social Media</h4>
+    <a href="https://facebook.com/" class="icons"><i class="bx bxl-facebook-circle" ></i></a>
+    <a href="https://www.instagram.com/piyusshh_?igsh=MWNkaGVzazljeGo0Zg==" class="icons"><i class='bx bxl-instagram' ></i></a>
+    <a href="https://youtube.com/@piyushtailor2?si=HPn73yrYT8tAKwlP" class="icons"><i class='bx bxl-youtube' ></i></a>
+</section>
+ <!--footer-->
+ <footer >
+   
+    <p>Copy &copy; 2023 by Piyush tailor || All Right Reserved.</p>
+    <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+  </footer>
+
+</body>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</html>

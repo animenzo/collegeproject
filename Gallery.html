@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTITUTE OF ENGINEERING & TECH</title>
+    <link rel="icon" type="image/png" href="collegelogof.png">
+
+    <link rel="stylesheet" href="college.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class="sticky">
+    <nav>
+        <a href="index.html">
+            <img src="collegelogof.png" alt="logo" class="logo">
+          <p><b class="college-name">INSTITUTE OF ENGINEERING & TECHNOLOGY</b></p> 
+ </a>            
+    
+ 
+        <div class="nav-links" id="navLinks">
+           
+        
+            <ul>
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+             
+        </div>
+        <i class='bx bx-menu' onclick="showMenu()"></i>
+    </nav>
+  </div>
+ 
+   
+      <div class="gallery1">
+        <div class="gallery-item">
+          <a href="image1.jpg" target="_blank"><img src="image1.jpg" alt="Image 1"></a>
+        </div>
+      
+        <div class="gallery-item">
+          <a href="image2.jpg" target="_blank"><img src="image2.jpg" alt="Image 2"></a>
+        </div>
+     
+        <div class="gallery-item">
+          <a href="image3.jpeg" target="_blank"><img src="image3.jpeg" alt="Image 3"></a>
+        </div>
+        <div class="gallery-item">
+            <a href="galleryimg/img1.jpg" target="_blank"><img src="galleryimg/img1.jpg" alt="Image 3"></a>
+          </div>
+          <div class="gallery-item">
+            <a href="galleryimg/img2.jpg" target="_blank"><img src="galleryimg/img2.jpg" alt="Image 3"></a>
+          </div>
+          <div class="gallery-item">
+            <a href="galleryimg/img3.jpg" target="_blank"><img src="galleryimg/img3.jpg" alt="Image 3"></a>
+          </div>
+          <div class="gallery-item">
+            <a href="image3.jpeg" target="_blank"><img src="image3.jpeg" alt="Image 3"></a>
+          </div>
+          <!---<div class="gallery-item">
+            <a href="campusvid1.gif" target="_blank"><video width="320" height="240" controls>
+              <source src="campusvid1.gif" type="video/mp4">
+              Your browser does not support the video tag.
+            </video></a>
+          </div>-->
+      </div>
+   
+
+
+
+ <!--social mediar-->
+ <section class="footer">
+    <h4>Social Media</h4>
+    <a href="https://facebook.com/" class="icons"><i class="bx bxl-facebook-circle" ></i></a>
+    <a href="https://www.instagram.com/piyusshh_?igsh=MWNkaGVzazljeGo0Zg==" class="icons"><i class='bx bxl-instagram' ></i></a>
+    <a href="https://youtube.com/@piyushtailor2?si=HPn73yrYT8tAKwlP" class="icons"><i class='bx bxl-youtube' ></i></a>
+</section>
+ <!--footer-->
+ <footer >
+   
+    <p>Copy &copy; 2023 by Piyush tailor || All Right Reserved.</p>
+    <a href="about.html"><i class="bx bx-up-arrow-alt"></i></a>
+  </footer>
+
+</body>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</html>
